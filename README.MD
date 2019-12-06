@@ -1,7 +1,7 @@
 # DCBot
 - This is my DC's BOT,it's contains many features convenience for me.
 
-#Bot Commands:
+## Bot Commands:
 >!help:
 
 - Show all the commands of this bot.
