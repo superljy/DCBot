@@ -8,7 +8,7 @@ const fetch = require('node-fetch');
 const bot = new Client();
 const ms = require('ms');
 
-const token = "NjE1NzMzNzc3NjcwNDcxNjkx.XWSVmA.YauAuQkdJVqPSseCnwWXFEXqhYo";
+const auth = require("./auth/auth.json");
 
 const prefix = "!";
 
@@ -119,4 +119,4 @@ bot.on("message", (msg) => {
     }
 })
 
-bot.login(token);
+bot.login(auth.token);

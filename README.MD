@@ -10,6 +10,7 @@
 
 - Mute somebody from my discord.
 - Format:!mute @somebody sometime(seconds)
+  
 ```ex:!mute @sb 1s  //mute sb 1 second```
 
 >!antiBalance:
